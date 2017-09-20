@@ -1,0 +1,31 @@
+html {
+    padding: 0px;
+}
+body {
+    padding: 0px;
+}
+
+.header {
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+}
+ul { 
+    float: right;
+    list-style-type: none;
+}
+h1{
+    float: left;
+    margin: 0px;
+}
+li {
+    float: left;
+    margin-left: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
