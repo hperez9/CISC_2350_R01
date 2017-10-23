@@ -1,0 +1,40 @@
+div.solid {
+
+    background-color: white;
+    width: 300px;
+    border: 25px solid orange;
+    padding: 25px;
+    margin: 25px;
+}
+div.dotted{
+	position: relative;
+	background-color: white;
+    width: 300px;
+    border: 25px dotted orange;
+    padding: 25px;
+    margin: 25px;
+    left: 500px;
+
+}
+
+div.dashed{
+
+	background-color: white;
+    width: 300px;
+    border: 25px dashed orange;
+    padding: 25px;
+    margin: 25px;
+
+}
+h1{
+	position: center;
+	font-size: 30px;
+}
+
+img {
+	position: relative;
+	border: 25px solid black;
+	width: 300px;
+	padding: 25px;
+	left: 500px;
+}
