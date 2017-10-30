@@ -1,0 +1,52 @@
+p.num1{
+	position: relative;
+    background-color: white;
+    width: 300px;
+    border: 25px dotted red;
+    padding: 25px;
+    margin: 25px;
+    left: 500px;
+}
+p.num2{
+	position: relative;
+    background-color: white;
+    width: 300px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px;
+    left: 500px;
+}
+p.num3{
+	position: relative;
+    background-color: white;
+    width: 300px;
+    border: 25px dotted red;
+    padding: 25px;
+    margin: 25px;
+    left: 500px;
+}
+p.num4{
+	position: relative;
+    background-color: white;
+    width: 300px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px;
+    left: 500px;
+}
+p.num5{
+	position: relative;
+    background-color: white;
+    width: 300px;
+    border: 25px dotted red;
+    padding: 25px;
+    margin: 25px;
+    left: 500px;
+}
+
+h1{
+    position: center;
+    font-size: 30px
+}
+
+body{background-color:black;}

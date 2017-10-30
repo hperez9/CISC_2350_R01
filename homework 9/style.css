@@ -1,0 +1,26 @@
+p.num1{
+	position: static;
+    border: 3px solid orange;
+}
+p.num2{
+	position: relative;
+    left: 30px;
+    border: 3px solid orange;
+}
+p.num3{
+	position: fixed;
+    bottom: 0;
+    right: 200;
+    width: 300px;
+    border: 3px solid orange
+}
+p.num4{
+	position: relative;
+    left: 30px;
+    border: 3px solid orange;
+}
+p.num5{
+	position: relative;
+    left: 30px;
+    border: 3px solid orange;
+}

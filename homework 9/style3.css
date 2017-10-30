@@ -1,0 +1,42 @@
+p.num1{
+	background-color: white;
+    width: 300px;
+    border: 25px dashed blue;
+    padding: 25px;
+    margin: 25px;
+}
+p.num2{
+	background-color: white;
+    width: 300px;
+    border: 25px dashed blue;
+    padding: 25px;
+    margin: 25px;
+}
+p.num3{
+	background-color: white;
+    width: 300px;
+    border: 25px dashed blue;
+    padding: 25px;
+    margin: 25px;
+}
+p.num4{
+	background-color: white;
+    width: 300px;
+    border: 25px dashed blue;
+    padding: 25px;
+    margin: 25px;
+}
+p.num5{
+	background-color: white;
+    width: 300px;
+    border: 25px dashed blue;
+    padding: 25px;
+    margin: 25px;
+}
+
+h1{
+    position: center;
+    font-size: 30px;
+}
+
+body{background-color:black;}
