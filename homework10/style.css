@@ -1,0 +1,44 @@
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li {
+    float: right;
+}
+.container{
+	display: grid;
+	justify-content: center;
+}
+
+.grid1 { 
+  grid-column-start: 1; 
+  grid-column-end: 3;
+}
+
+.grid2 { 
+  grid-column-start: 1; 
+  grid-column-end: 3;
+}
+.grid3 { 
+  grid-column-start: 1; 
+  grid-column-end: 3; 
+}
+.grid4{
+	grid-column-start: 1; 
+  	grid-column-end: 3;
+
+}
