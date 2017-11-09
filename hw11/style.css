@@ -1,0 +1,27 @@
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_7LtyANE8CBDKMe6wWSCoSiT2vDC253VA8O63VASrb7R4QJkMPw);
+	background-size: 900px
+
+}
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: white;
+}
+p{
+	font-size: 18px;
+	color: white;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
