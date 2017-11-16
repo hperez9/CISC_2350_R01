@@ -1,0 +1,24 @@
+h1{
+
+  color: white;
+  font-size: 30px;
+}
+
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBJBLUGLOwVd3KggeZOc7vDz5dWVSP-JwB8VxiTDDcIPXWmYnC4w);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.id-blank{
+  padding-right: 30px;
+}
+
+p{
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: white;
+}
