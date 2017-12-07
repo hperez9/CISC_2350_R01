@@ -1,0 +1,452 @@
+body{
+	background-color: black;
+}
+h1{
+	color:#3399ff;
+	text-align: center;
+  font-family: "impact";
+  font-size: 30px;
+
+}
+
+.color {
+	color: white;
+	background-color: black;
+}
+
+.button-left1{
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	transform: translate(0%,-50%);
+}
+.button-right1{
+	position: absolute;
+	top: 100%;
+	right: 0%;
+	transform: translate(0%,-50%);
+
+}
+.button1:hover{
+	color: black;
+	background-color:#3399ff;
+}
+.button1 {
+	border: none;
+	display: inline-block;
+	outline: 0;
+	padding: 64px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+button{
+  position: absolute;
+  background-color: black;
+  color: #3399ff;
+	font-family:"impact";
+  font-size: 30px;
+	margin: 0;
+}
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: black ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #3399ff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#video{
+  position: absolute;
+  top: 20%;
+  right:50px;
+  border: 25px solid grey;
+
+
+}
+
+h4{
+  position: absolute;
+  top:12%;
+  left:40px;
+  font-size: 45px;
+  color: #3399ff;
+  font-family: "impact"
+}
+div.solid{
+    position: absolute;
+    top:23%;
+    left:15px;
+    background-image: url("C2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    border: 25px solid grey;
+    padding: 20px;
+    margin: 25px;
+}
+h5{
+  color: white;
+  font-size: 20px;
+  font-family: "bookman"
+}
+div.solid2{
+    position: absolute;
+    top:675px;
+    left:15px;
+    background-image: url("C6.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height:300px;
+    width: 1350px;
+    border: 25px solid grey;
+    padding: 25px;
+    margin: 25px;
+
+}
+.BA{
+  position: absolute;
+  left: 450px;
+  top: 10px;
+  color: #3399ff;
+  font-size: 60px;
+  font-family: "impact";
+}
+
+
+div.transbox p {
+  position: absolute;
+  bottom:100px;
+  margin: 20%;
+  font-weight: bold;
+  color: #000000;
+}*/
+
+h1{
+	color: white
+}
+
+.topnav a {
+    position: center;
+    top: 100px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "impact"
+}
+
+
+.topnav a:active{
+  background-color:#3399ff;
+  color: black; 
+}
+.topnav a:hover {
+    background-color: #3399ff;
+    color: black;
+}
+
+
+body{
+  background: #000;
+  padding-top: 10px;
+} 
+
+p{
+  position: absolute;
+  bottom: 5px;
+  left: 425px;
+  color: white; 
+  font-family: "Courier";
+  font-size: 60px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#ESR
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    
+    
+}
+
+#car1{
+    position: absolute;
+    left: 40px;
+    top:1005px;
+    border: 25px solid grey;
+
+}
+#car5{
+  position: absolute;
+  top: 1005px;
+  left: 490px;
+  border: 25px solid grey;
+
+}
+#car4{
+  position: absolute;
+  top: 1005px;
+  left:940px;
+  border: 25px solid grey;
+  
+}
+#cars{
+  size: 100%;
+}
+
+.E{
+  position: absolute;
+  top: 1400px;
+  left: 40px;
+  color:#3399ff;
+  font-family: "impact";
+  font-size: 40px;
+
+}
+.D{
+  position: absolute;
+  top: 1400px;
+  left: 175px;
+  color:#3399ff;
+  font-family: "impact";
+  font-size: 40px;
+
+}
+.B{
+  position: absolute;
+  top: 1400px;
+  left: 375px;
+  color:#3399ff;
+  font-family: "impact";
+  font-size: 40px;
+
+}
+.Ex{
+  position: absolute;
+  top: 1400px;
+  left: 525px;
+  color:#3399ff;
+  font-family: "impact";
+  font-size: 40px;
+
+}
+
+
+.Ext{
+  position: absolute;
+  top: 1400px;
+  left: 700px;
+  color:#3399ff;
+  font-family: "impact";
+  font-size: 40px;
+
+}
+
+.I{
+  position: absolute;
+  top: 1400px;
+  left: 850px;
+  color:#3399ff;
+  font-family: "impact";
+  font-size: 40px;
+
+}
+
+.Int{
+  position: absolute;
+  top: 1400px;
+  left: 1010px;
+  color:#3399ff;
+  font-family: "impact";
+  font-size: 40px;
+
+}
+.S{
+  position: absolute;
+  top: 1400px;
+  left: 1150px;
+  color:#3399ff;
+  font-family: "impact";
+  font-size: 40px;
+
+}
+
+#e{
+  position: absolute;
+  top:1550px;
+  left:40px;
+}
+#drive{
+  position: absolute;
+  top:1550px;
+  left:200px;
+}
+
+#brakes{
+  position: absolute;
+  top:1550px;
+  left:375px;
+}
+#ex{
+  position: absolute;
+  top:1550px;
+  left:530px;
+}
+#ext{
+  position: absolute;
+  top:1550px;
+  left:700px;
+}
+#In{
+  position: absolute;
+  top:1550px;
+  left:850px;
+}
+#Int{
+  position: absolute;
+  top:1550px;
+  left:1010px;
+}
+
+#Sus{
+  position: absolute;
+  top:1550px;
+  left:1150px;
+}
+
+div.solid3{
+    position: absolute;
+    top:1650px;
+    left:15px;
+    height:675px;
+    width: 1350px;
+    border: 25px solid grey;
+    padding: 25px;
+    margin: 25px;
+    background-image: url(C12.jpg);
+    background-repeat: "no-repeat";
+    background-size: cover;
+
+
+}
+.Engine{
+  
+  font-size: 25px;
+  color:white;
+  font-family: "bookman"; 
+}
+h3{
+  color:#3399ff;
+  font-family: "Courier";
+
+
+}
+
+
