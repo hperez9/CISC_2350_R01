@@ -1,0 +1,27 @@
+img {
+  height: 50px;
+  position:absolute;
+}
+
+#img2.hidden{
+ display:none;}
+
+img3 {
+  height: 50px;
+  position:absolute;
+}
+
+#img4.hidden{
+ display:none;}
+
+.column1{
+  width: 50%; 
+  float:left;
+  positon:fixed;
+}
+
+.column2{
+  width: 50%; float:right;
+  transform: translate(20px);
+  transform: rotate(5deg);
+}

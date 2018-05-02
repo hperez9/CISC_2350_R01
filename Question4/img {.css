@@ -1,0 +1,72 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+.one {
+  width: 100%;
+  height: 100%;
+  background: white;
+  position: absolute;
+  
+}
+.two {
+  width: 75%;
+  height: 75%;
+  background: red;
+  position: relative;
+  top:12%;
+  left:12%;
+}
+.three {
+  width: 50%;
+  height: 50%;
+  background: green;
+  position: relative;
+  top:25%;
+  left:25%;
+} 
+.four {
+  width: 50%;
+  height: 50%;
+  background: blue;
+  position: relative;
+  top:25%;
+  left:25%;
+}
+.five {
+  width: 50%;
+  height: 50%;
+  background: pink;
+  position: relative;
+  top:25%;
+  left:25%;
+}
+.six{
+  width: 50%;
+  height: 50%;
+  background: black;
+  position: relative;
+  top:25%;
+  left:25%;
+}
+.seven {
+  width: 50%;
+  height: 50%;
+  background: red;
+  position: relative;
+  top:25%;
+  left:25%;
+} 
+.eight{
+  width: 50%;
+  height: 50%;
+  background: black;
+  position: relative;
+  top:25%;
+  left:25%;
+}
+
+.nine{
+  width: 50%;
+
+}
