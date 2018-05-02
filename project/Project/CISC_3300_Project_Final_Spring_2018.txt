@@ -1,0 +1,147 @@
+1)  Take the CISC_3300_MoveButterfly_FrameMethod_rot and  CISC_3300_MoveButterfly_FrameMethod for translation and rotation of a 
+    butterfly with alternating content and
+        a) Split the screen in half and on the right hand side, translate then rotate the container ( increment 20 pixels for translate, 5 degrees for rotate)
+           on left hand side of screen rotate then translate the container
+        b) Have the two containers move toward each other until they touch each other, then move away from each other ( horizontally)
+
+2) Given the HTML file below, write a script file which 
+             A)     - Searches for all occurences of a word in each paragraph within the div section using querySelectorAll to place the paragraphs into an array and
+                       search each paragraph individually for a word
+                       Alias the button click button to the function which performs the searches for the applicable paragraphs.
+
+                   - For each paragraph element in the array of paragraphs, searches for a word which is input on the HTML page via the textbox or a span tab, 
+                      and if it finds the word, highlight the entire word  in yellow using a css styling selector
+                      Use the object function  indexOf  in the statement   mainParas[i].textContent.indexOf(searchPhrase) >= 0)
+                     where mainParams[i] is the ith paragraph element, and searchPhrase is the textcontent of a textbox, or a spantab. Make use of 
+                     document.getElementById("id") to extract the data from the textbox.
+
+            B)    Extends the js to count the number of words found and place that result in the textcontent of a heading element.
+
+            C)    Generalizes the application to search for any type of element for the occurrences of the word and then counts the number of occurrences
+                   of a word within each of the html types ( inner list, paragraph, outer list)
+ 
+                      <html>
+<head>
+<script src = "first.js" type = "text/javascript"> </script>
+<link href= "dirststyle.css"  type = "text/css" rel = "stylesheet" />
+
+</head>
+
+
+<body>
+<div id="main">
+<p>The Phoenix Suns are a professional basketball team based in
+ Phoenix, Arizona. They are members of the ...</p>
+<p>The Suns have been generally successful since they began play as an
+expansion team in 1968. In forty years of play they have posted ...</p>
+ <p>On January 22, 1968, the NBA awarded expansion franchises to an
+ownership group from Phoenix and one from Milwaukee. ...</p>
+ <ul>
+<li>Richard L. Bloch, investment broker/real estate developer...</li> 
+<li>Karl Eller, outdoor advertising company owner and former...</li>
+ <li>Donald Pitt, Tucson-based attorney;</li>
+<li>Don Diamond, Tucson-based real estate investor.</li>
+</ul>
+</div>
+
+<p>Page by New Person. <br />
+Some (all) information taken from Wikipedia.</p>
+<hr />
+
+
+<div>
+Search for text:
+<input id="searchtext" type="text"  /> 
+<button id="searchbutton">Search</button>
+ </div>
+
+
+
+</body>
+</html>
+
+3) Given the flexible container application on the mid-term exam question7 with the nav, section,paragraph and inner div elements, create a click event for the inner div elements which places
+   dynamically image context within the div elements and centers the image., that is, the div section is a flex container, the div element is a flex element, and the div 
+   element itself is a flex container which dynamically appends an image. ( see attached output for what is should appear as)
+   
+   Use the methods in Album.html to associate a div element with a click event that places the image in the flexible div element.
+   Modify the css selectors to make each div element flexible with centered content and also establish the size of the image in each div container.
+
+
+
+4) Extend the innerconflict method but only for generating nested multicolored square containers ( nested div elements)-No click events for the div elements.
+    The   div elements are nested rectangular, but randomly change the colors inside in an animation frame. This can be done by creating 
+    10 + new inner nested div containers instead of two. ( Create on the HTML ). Instead of using the nested concept in innerconflict application
+    use instead position:absolute in the css page  and don't nest the divs ( list them separately on the HTML page line-by-line).  Each nested div element should look like the additional attached files (Project_Question_4_illustrate,
+   Project_Question_4_illustrate_2). Use the element.style.backgroundColor = (i,j,k) as the statement for modifying color, where i,j,k are the rgb components- do
+  not use the statement  element.style.backgroundColor = rgb(i,j,k) as rgb will not work with this particular invokation of the html element .
+
+5) Using the methods of the slides #14 for creating user-defined objects, take the application from  question 3  or question 4 (your choice)and convert it into object class-form with a 
+    constructor and a method in a js file. For example,for question 3,the constructor should accept the outer flex container ( which will contain the three side by side inner div elements).
+    The constructor should also access the array of div elements  and alias a click event via the addEventListener function. The function should be 
+    placed in the method portion of the class object.
+
+6) a)Take the application which styled a paragraph listed below and modify it so that additional  css style is given to the enclosing  div section element- make the div section have
+    a gray background color and give it a black border. The css should make use of more advanced techniques that we covered in the slides dealing with nested elements
+    and offsets within those elements- this was the unsophisticated  preliminary version which simply positioned elements inside the page but not relative to the container
+    they were situated in. (Result attached).
+    b) Create a js file which  -contains a button click function which accepts text at run time within a textbox element,
+    c)  and then replaces the original paragraph
+        content with the dynamically defined paragraph content- use   document.getElementById("texta").value     for a textarea input;
+    d) Allows the click event to change the background color of the paragraph from blue to light gray  and back again with each button click.
+
+        ( See Project_Question_6_ jpegs  which are attached)
+
+<! DOCTYPE html>
+<html>
+  <head>
+     <title> First Illustration</title>
+<link rel="stylesheet" type="text/css" href="firstillex.css">
+  </head>
+
+     <body>
+
+<h4 class="class4">CS 193X: Web Fun</h4>
+<h4>CS 193X: Web Fun</h4>
+
+
+   <h1>CS 3300  WEB FUN</h1>
+   
+   
+    <div >
+      <p ><strong>Announcements</strong></br>
+       4/3: Homework 0 is out! <span class ="class1"> Due Friday.</span> </br>
+       4/3: Office hours are now posted.</p>
+             
+            </br>
+
+       <a href="http://www.fordham.edu">View Syllabus</a>
+       </div>
+
+
+    
+     </body>
+     </html>
+
+
+ THIS IS FIRSTILLEX.CSS
+p{background-color:lavenderblush;
+border: 3px solid hotpink ;
+
+width: 25%;
+margin-left: 380px;}
+
+/*h1{ text-align:center;}*/
+h1{ margin-left: 380px;}
+
+a{ color:blue;
+margin-left: 450px;}
+
+.class1{
+  background-color:yellow;}
+
+.class4{font-size:10px;
+    font-style:italic;}
+
+
+ 
